@@ -7,10 +7,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand">
-
-                    <img src="assets/img/logo.png" />
+                    <img class="logo" src="assets/img/logo.jpg" alt="logo" />
                 </a>
-
             </div>
 
             <div class="right-div">
@@ -28,7 +26,7 @@
                             <li><a href="dashboard.php" class="menu-top-active">DASHBOARD</a></li>
                            
                             <li>
-                                <a href="#" class="dropdown-toggle " style="" id="ddlmenuItem" data-toggle="dropdown"> Categories <i class="fa fa-angle-down"></i></a>
+                                <a href="#" class="dropdown-toggle " id="ddlmenuItem" data-toggle="dropdown"> Categories <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="ddlmenuItem">
                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="add-category.php" >Add Category</a></li>
                                      <li role="presentation"><a role="menuitem" tabindex="-1" href="manage-categories.php">Manage Categories</a></li>
