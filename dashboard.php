@@ -40,11 +40,7 @@ if (strlen($_SESSION['login']) == 0) {
         </div>
 
         <div class="row">
-
-
-
-
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-md-3 col-sm-3 col-xs-6" onclick="window.location.href='issued-books.php';">
             <div class="alert alert-info back-widget-set text-center">
               <i class="fa fa-bars fa-5x"></i>
               <?php
@@ -62,7 +58,7 @@ if (strlen($_SESSION['login']) == 0) {
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-md-3 col-sm-3 col-xs-6" onclick="window.location.href='request-a-book.php';">
             <div class="alert alert-warning back-widget-set text-center">
               <i class="fa fa-recycle fa-5x"></i>
               <?php
