@@ -5,6 +5,16 @@
  */
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+:root {
+  --primary-color: #FFF;
+  --secondary-color: #3E8DA8;
+  --head-color: #0000FF;
+  --link-color: #51BE78;
+  --line-color: #17A2B8;
+  --button-color: #00FFFF;
+  --footer-color: #2F4A70;
+}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -1758,6 +1768,7 @@ pre code {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   gap: 1rem;
+  user-select: none;
 }
 
 .logo {
@@ -1832,6 +1843,7 @@ h5 {
 .row {
   margin-right: -15px;
   margin-left: -15px;
+  user-select: none;
 }
 
 .col-xs-1,
@@ -4804,6 +4816,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
   border-top: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+  background-color: var(--);
 }
 
 .navbar-collapse.in {
@@ -5838,6 +5851,7 @@ a.thumbnail.active {
   color: #3c763d;
   background-color: #dff0d8;
   border-color: #d6e9c6;
+  cursor: pointer;
 }
 
 .alert-success hr {
@@ -5847,6 +5861,7 @@ a.thumbnail.active {
 .alert-success .alert-link {
   color: #2b542c;
 }
+
 .alert-success:hover {
   background-color: #3c763d;
   color: #dff0d8;
@@ -5857,6 +5872,7 @@ a.thumbnail.active {
   color: #31708f;
   background-color: #d9edf7;
   border-color: #bce8f1;
+  cursor: pointer;
 }
 
 .alert-info hr {
@@ -5877,6 +5893,7 @@ a.thumbnail.active {
   color: #8a6d3b;
   background-color: #fcf8e3;
   border-color: #faebcc;
+  cursor: pointer;
 }
 
 .alert-warning hr {
@@ -5897,6 +5914,7 @@ a.thumbnail.active {
   color: #a94442;
   background-color: #f2dede;
   border-color: #ebccd1;
+  cursor: pointer;
 }
 
 .alert-danger hr {
