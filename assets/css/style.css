@@ -15,7 +15,7 @@
    GENERAL STYLES
  ============================================================ */
 
-:root{
+:root {
     --primary-color: #FFF;
     --secondary-color: #3E8DA8;
     --head-color: #0000FF;
@@ -23,8 +23,8 @@
     --line-color: #17A2B8;
     --button-color: #00FFFF;
     --footer-color: #2F4A70;
-
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 28px;

@@ -45,7 +45,7 @@ if (strlen($_SESSION['alogin']) == 0) {
 
         <div class="row">
 
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-md-3 col-sm-3 col-xs-6" onclick="window.location.href='manage-books.php';">
             <div class="alert alert-success back-widget-set text-center">
               <i class="fa fa-book fa-5x"></i>
               <?php
@@ -63,7 +63,7 @@ if (strlen($_SESSION['alogin']) == 0) {
           </div>
 
 
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-md-3 col-sm-3 col-xs-6" onclick="window.location.href='manage-issued-books.php';">
             <div class="alert alert-info back-widget-set text-center">
               <i class="fa fa-bars fa-5x"></i>
               <?php
@@ -75,11 +75,11 @@ if (strlen($_SESSION['alogin']) == 0) {
               ?>
 
               <h3><?php echo htmlentities($issuedbooks); ?> </h3>
-              Times Book Issued
+              Books Issued Time
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-md-3 col-sm-3 col-xs-6" onclick="window.location.href='manage-issued-books.php';">
             <div class="alert alert-warning back-widget-set text-center">
               <i class="fa fa-recycle fa-5x"></i>
               <?php
@@ -148,7 +148,7 @@ if (strlen($_SESSION['alogin']) == 0) {
               Listed Categories
             </div>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6">
+          <div class="col-md-3 col-sm-3 col-xs-6" onclick="window.location.href='set-fine.php';">
             <div class="alert alert-info back-widget-set text-center">
               <i class="fa fa-money fa-5x"></i>
               <?php

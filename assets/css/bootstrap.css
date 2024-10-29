@@ -7,6 +7,12 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 :root {
   --primary-color: #FFF;
+  --secondary-color: #3E8DA8;
+  --head-color: #0000FF;
+  --link-color: #51BE78;
+  --line-color: #17A2B8;
+  --button-color: #00FFFF;
+  --footer-color: #2F4A70;
 }
 
 html {
@@ -1798,10 +1804,12 @@ h5 {
     flex-direction: column;
     align-items: center;
   }
-  .header-content >h3{
+
+  .header-content>h3 {
     font-size: 20px;
   }
-  .header-content >h5{
+
+  .header-content>h5 {
     font-size: 10px;
   }
 }
