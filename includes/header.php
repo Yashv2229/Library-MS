@@ -6,11 +6,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand">
-
-                <img class="logo" src="assets/img/logo.jpg" />
-            </a>
-
+            <div class="header-content">
+                <a class="navbar-brand">
+                    <img class="logo" src="assets/img/logo.jpg" />
+                </a>
+                <h3>
+                    Smt.Sushiladevi Deshmukh College of Arts, Science & Commerce
+                </h3>
+                <h5>
+                    (Affiliated to University of Mumbai)<br />Sector-04,Airoli,Navi Mumbai-400708
+                </h5>
+            </div>
         </div>
         <?php if ($_SESSION['login']) {
         ?>
